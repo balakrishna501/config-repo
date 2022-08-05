@@ -1,0 +1,14 @@
+server:
+  port: 9015
+spring:
+  application:
+    name: settlement-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5

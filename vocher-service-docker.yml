@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: vocher-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eureka-service:8761/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5
