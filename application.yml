@@ -1,4 +1,4 @@
-  `1eureka:
+eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
